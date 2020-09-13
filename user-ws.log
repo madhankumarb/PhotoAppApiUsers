@@ -1,0 +1,217 @@
+2020-08-31 17:07:19.772  INFO [user-ws,,,] 16328 --- [restartedMain] c.a.p.a.u.PhotoAppApiUsersApplication    : The following profiles are active: dev
+2020-08-31 17:07:21.588  WARN [user-ws,,,] 16328 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-08-31 17:07:21.795  INFO [user-ws,,,] 16328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-31 17:07:21.876  INFO [user-ws,,,] 16328 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 1 JPA repository interfaces.
+2020-08-31 17:07:21.948  WARN [user-ws,,,] 16328 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-08-31 17:07:22.020  WARN [user-ws,,,] 16328 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-31 17:07:22.118  WARN [user-ws,,,] 16328 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-08-31 17:07:22.368  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c5ad7097-0e34-3ec7-88f7-c3ec94287852
+2020-08-31 17:07:22.470  INFO [user-ws,,,] 16328 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-08-31 17:07:22.474  INFO [user-ws,,,] 16328 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-08-31 17:07:22.480  INFO [user-ws,,,] 16328 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-08-31 17:07:22.739  INFO [user-ws,,,] 16328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@557fe1bd' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-31 17:07:22.755  INFO [user-ws,,,] 16328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-31 17:07:22.773  INFO [user-ws,,,] 16328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-31 17:07:22.779  INFO [user-ws,,,] 16328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-31 17:07:22.818  INFO [user-ws,,,] 16328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-31 17:07:22.835  INFO [user-ws,,,] 16328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-31 17:07:22.847  INFO [user-ws,,,] 16328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-31 17:07:22.852  INFO [user-ws,,,] 16328 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-31 17:07:23.497  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-08-31 17:07:23.504  INFO [user-ws,,,] 16328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-31 17:07:23.504  INFO [user-ws,,,] 16328 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-31 17:07:23.836  INFO [user-ws,,,] 16328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-31 17:07:23.836  INFO [user-ws,,,] 16328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4048 ms
+2020-08-31 17:07:23.997  WARN [user-ws,,,] 16328 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-31 17:07:23.997  INFO [user-ws,,,] 16328 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-31 17:07:24.004  INFO [user-ws,,,] 16328 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@719f86d6
+2020-08-31 17:07:24.103  INFO [user-ws,,,] 16328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-31 17:07:24.329  INFO [user-ws,,,] 16328 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (null)
+2020-08-31 17:07:24.333  INFO [user-ws,,,] 16328 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-31 17:07:24.336  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/photo_app?serverTimezone=UTC'
+2020-08-31 17:07:25.333  WARN [user-ws,,,] 16328 --- [restartedMain] o.s.c.s.zipkin2.ZipkinAutoConfiguration  : Check result of the [org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a0b0bbd] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+2020-08-31 17:07:27.345  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-08-31 17:07:27.760  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-31 17:07:28.263  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 17:07:28.317  INFO [user-ws,,,] 16328 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-31 17:07:28.406  INFO [user-ws,,,] 16328 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-08-31 17:07:28.455  WARN [user-ws,,,] 16328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-31 17:07:28.525  INFO [user-ws,,,] 16328 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-31 17:07:28.638  INFO [user-ws,,,] 16328 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-08-31 17:07:28.675  WARN [user-ws,,,] 16328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-08-31 17:07:28.695  INFO [user-ws,,,] 16328 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-31 17:07:29.252  INFO [user-ws,,,] 16328 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-31 17:07:29.261  INFO [user-ws,,,] 16328 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-31 17:07:29.505  INFO [user-ws,,,] 16328 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-31 17:07:29.811  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@125708e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@466493bb, org.springframework.security.web.header.HeaderWriterFilter@3676671d, org.springframework.security.web.authentication.logout.LogoutFilter@570124b9, com.appsdeveloper.photoapp.api.users.security.AuthenticationFilter@66a096d6, com.appsdeveloper.photoapp.api.users.security.AuthorizationFilter@941e41c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78ee5c65, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@478edd31, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f46751d, org.springframework.security.web.session.SessionManagementFilter@578722cb, org.springframework.security.web.access.ExceptionTranslationFilter@33dfe52e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22d11c9b]
+2020-08-31 17:07:29.848  WARN [user-ws,,,] 16328 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-31 17:07:29.849  INFO [user-ws,,,] 16328 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-31 17:07:30.538  INFO [user-ws,,,] 16328 --- [restartedMain] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-08-31 17:07:32.320  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-08-31 17:07:32.391  WARN [user-ws,,,] 16328 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-08-31 17:07:33.068  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-31 17:07:33.328  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'user-ws-1.springCloudBusInput' has 1 subscriber(s).
+2020-08-31 17:07:33.460  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2020-08-31 17:07:33.541  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2020-08-31 17:07:33.550  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-08-31 17:07:33.564  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-08-31 17:07:33.610  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@2dedfb5a
+2020-08-31 17:07:33.683  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-08-31 17:07:33.716  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-08-31 17:07:33.717  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'user-ws-1.errorChannel' has 1 subscriber(s).
+2020-08-31 17:07:33.717  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-08-31 17:07:33.719  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2020-08-31 17:07:35.194  INFO [user-ws,,,] 16328 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-08-31 17:07:38.391  INFO [user-ws,,,] 16328 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=user-ws, profiles=[dev], label=null, version=eb84301ffd1358cc6dcf00bbde15dc31f5d34f1c, state=null
+2020-08-31 17:07:38.391  INFO [user-ws,,,] 16328 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/madhankumarb/PhotoAppConfiguration/user-ws-dev.properties'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/madhankumarb/PhotoAppConfiguration/application-dev.properties'}]
+2020-08-31 17:07:38.480  INFO [user-ws,,,] 16328 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-31 17:07:38.481  INFO [user-ws,,,] 16328 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-31 17:07:38.485  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2020-08-31 17:07:38.485  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-08-31 17:07:38.581  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-08-31 17:07:38.611  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1e4f9fd6:0/SimpleConnection@316ea4b6 [delegate=amqp://photoappconfigrefresh@127.0.0.1:5672/, localPort= 56723]
+2020-08-31 17:07:38.643  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'user-ws-1.springCloudBusOutput' has 1 subscriber(s).
+2020-08-31 17:07:38.652  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-08-31 17:07:38.734  INFO [user-ws,,,] 16328 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.wBTHm-a3RHOY9KdaN5K2cw, bound to: springCloudBus
+2020-08-31 17:07:38.750  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.wBTHm-a3RHOY9KdaN5K2cw.errors' has 1 subscriber(s).
+2020-08-31 17:07:38.750  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.wBTHm-a3RHOY9KdaN5K2cw.errors' has 2 subscriber(s).
+2020-08-31 17:07:38.765  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.wBTHm-a3RHOY9KdaN5K2cw'
+2020-08-31 17:07:38.784  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56724 (http) with context path ''
+2020-08-31 17:07:38.785  INFO [user-ws,,,] 16328 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56724
+2020-08-31 17:07:38.790  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-08-31 17:07:38.820  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-08-31 17:07:38.873  INFO [user-ws,,,] 16328 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-08-31 17:07:38.873  INFO [user-ws,,,] 16328 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-08-31 17:07:38.965  INFO [user-ws,,,] 16328 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-08-31 17:07:38.965  INFO [user-ws,,,] 16328 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-08-31 17:07:39.116  INFO [user-ws,,,] 16328 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-08-31 17:07:39.429  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-08-31 17:07:39.429  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-08-31 17:07:39.430  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-08-31 17:07:39.430  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-08-31 17:07:39.430  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-08-31 17:07:39.430  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-08-31 17:07:39.430  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-08-31 17:07:39.615  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-08-31 17:07:39.617  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-08-31 17:07:39.619  INFO [user-ws,,,] 16328 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-31 17:07:39.623  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1598873859622 with initial instances count: 2
+2020-08-31 17:07:39.634  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-WS with eureka with status UP
+2020-08-31 17:07:39.634  INFO [user-ws,,,] 16328 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1598873859634, current=UP, previous=STARTING]
+2020-08-31 17:07:39.636  INFO [user-ws,,,] 16328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:b342268affd062ef8d1c53344ef0233a: registering service...
+2020-08-31 17:07:39.695  INFO [user-ws,,,] 16328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:b342268affd062ef8d1c53344ef0233a - registration status: 204
+2020-08-31 17:07:41.093  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-08-31 17:07:41.095  INFO [user-ws,,,] 16328 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-31 17:07:41.096  INFO [user-ws,,,] 16328 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-31 17:07:41.143  INFO [user-ws,,,] 16328 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.wBTHm-a3RHOY9KdaN5K2cw.errors
+2020-08-31 17:07:41.234  INFO [user-ws,,,] 16328 --- [restartedMain] c.a.p.a.u.PhotoAppApiUsersApplication    : Started PhotoAppApiUsersApplication in 28.344 seconds (JVM running for 30.261)
+2020-08-31 17:08:25.201  INFO [user-ws,,,] 16328 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 17:08:25.201  INFO [user-ws,,,] 16328 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-31 17:08:25.217  INFO [user-ws,,,] 16328 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-08-31 17:08:27.373  WARN [user-ws,,,] 16328 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a0b0bbd}] z.r.AsyncReporter$BoundedAsyncReporter   : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-08-31 17:08:27.378  WARN [user-ws,,,] 16328 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a0b0bbd}] z.r.AsyncReporter$BoundedAsyncReporter   : Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228) ~[spring-cloud-sleuth-zipkin-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129) ~[spring-cloud-sleuth-zipkin-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142) ~[spring-cloud-sleuth-zipkin-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132) ~[spring-cloud-sleuth-zipkin-2.2.3.RELEASE.jar:2.2.3.RELEASE]
+	at zipkin2.Call$Base.execute(Call.java:380) ~[zipkin-2.21.1.jar:na]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299) ~[zipkin-reporter-2.15.0.jar:na]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378) [zipkin-reporter-2.15.0.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:844) [na:na]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009) ~[na:na]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 9 common frames omitted
+
+2020-08-31 17:12:39.433  INFO [user-ws,,,] 16328 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-08-31 17:17:39.435  INFO [user-ws,,,] 16328 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-08-31 17:20:41.556  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-08-31 17:20:41.557  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-WS with eureka with status DOWN
+2020-08-31 17:20:41.557  WARN [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1598874641557, current=DOWN, previous=UP]
+2020-08-31 17:20:41.557  INFO [user-ws,,,] 16328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:b342268affd062ef8d1c53344ef0233a: registering service...
+2020-08-31 17:20:41.573  INFO [user-ws,,,] 16328 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:b342268affd062ef8d1c53344ef0233a - registration status: 204
+2020-08-31 17:20:41.836  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-08-31 17:20:41.840  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-08-31 17:20:41.843  WARN [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@10.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@10.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@10.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2117)
+ java.base@10.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@10.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1121)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+2020-08-31 17:20:41.844  WARN [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@10.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@10.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@10.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2117)
+ java.base@10.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@10.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1121)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+2020-08-31 17:20:41.845  WARN [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@10.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@10.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@10.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2075)
+ java.base@10.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1121)
+ java.base@10.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+2020-08-31 17:20:41.846  WARN [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a0b0bbd}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@10.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@10.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@10.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2117)
+ app//zipkin2.reporter.ByteBoundedQueue.drainTo(ByteBoundedQueue.java:81)
+ app//zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:270)
+ app//zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+ java.base@10.0.2/java.lang.Thread.run(Thread.java:844)
+2020-08-31 17:20:42.094  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-08-31 17:20:42.209  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-08-31 17:20:42.210  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.wBTHm-a3RHOY9KdaN5K2cw'
+2020-08-31 17:20:42.218  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'user-ws-1.springCloudBus.anonymous.wBTHm-a3RHOY9KdaN5K2cw.errors' has 1 subscriber(s).
+2020-08-31 17:20:42.219  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'user-ws-1.springCloudBus.anonymous.wBTHm-a3RHOY9KdaN5K2cw.errors' has 0 subscriber(s).
+2020-08-31 17:20:42.222  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-08-31 17:20:42.222  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'user-ws-1.errorChannel' has 0 subscriber(s).
+2020-08-31 17:20:42.223  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2020-08-31 17:20:42.237  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-31 17:20:42.239  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 17:20:42.241  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-08-31 17:20:43.250  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-31 17:20:43.256  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-31 17:20:43.257  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusOutput'
+2020-08-31 17:20:43.257  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusInput'
+2020-08-31 17:20:43.257  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2020-08-31 17:20:43.257  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2020-08-31 17:20:43.258  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@2dedfb5a
+2020-08-31 17:20:43.258  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-08-31 17:20:43.259  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-08-31 17:20:46.263  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-08-31 17:20:46.271  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:b342268affd062ef8d1c53344ef0233a - deregister  status: 200
+2020-08-31 17:20:46.290  INFO [user-ws,,,] 16328 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
