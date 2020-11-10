@@ -21,7 +21,6 @@ public class FeignErrorDecoder implements ErrorDecoder {
 		case 404:
 			if(methodKey.contains("getAlbums")) {
 				return new ResponseStatusException(HttpStatus.valueOf(response.status()),env.getProperty("albums.exception.albums-not-found"));
-				
 				/*NOTE: Below HystrixBadRequestException is used if we don't want to call fallback method when there is an exception.
 				 * When we have feign error decoder and hystrix fallback, then even for exceptions fallback will
 				 * be served and if you do not want that behavior, in the sense when album service is down then
@@ -32,5 +31,4 @@ public class FeignErrorDecoder implements ErrorDecoder {
 		}
 		return null;
 	}
-
 }
