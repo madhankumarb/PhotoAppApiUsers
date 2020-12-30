@@ -11,7 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import feign.Logger;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @EnableFeignClients
 @EnableCircuitBreaker
 public class PhotoAppApiUsersApplication {
